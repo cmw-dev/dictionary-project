@@ -34,7 +34,7 @@ export default function Dictionary() {
           onChange={handleKeywordChange}
         />
 
-        <button> 🔎 </button>
+        <button>🔎</button>
       </form>
     </div>
   );
