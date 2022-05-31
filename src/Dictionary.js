@@ -1,10 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Dictionary.css";
 
 export default function () {
+  let [keyWord, setKeyword] = useState("");
   function search(event) {
     event.preventDefault();
-    alert("searching");
+    alert(`searching for ${keyWord}`);
+  }
+
+  function handleKeywordChange(event) {
+    setKeyword(event.target.value);
   }
   return (
     <div className="container">
@@ -13,12 +18,19 @@ export default function () {
       <form className="search-bar" onSubmit={search}>
         <input
           type="text"
-          className="col-sm-6 mb-4"
+          className="col-md-6 mb-4"
           placeholder="type a word"
           autoFocus="off"
           autoComplete="off"
+          onChange={handleKeywordChange}
         />
-        <input type="submit" value="Search" className="btn btn-dark" />
+
+        <input
+          type="submit"
+          value="🔎"
+          aria-label="Default"
+          className="btn btn-light"
+        />
       </form>
     </div>
   );
