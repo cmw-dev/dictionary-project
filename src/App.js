@@ -5,7 +5,7 @@ import Contact from "./Contact";
 function App() {
   return (
     <div className="App">
-      <div className="d flex container">
+      <div className="container">
         <Dictionary />
         <Contact />
       </div>
