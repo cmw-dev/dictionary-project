@@ -6,7 +6,7 @@ export default function Contact() {
     <span className="contact">
       <a
         className="contact-link"
-        href="https://github.com/cmw-dev/react-weather"
+        href="https://github.com/cmw-dev/dictionary-project"
         target="_blank"
         rel="noopener noreferrer"
       >
