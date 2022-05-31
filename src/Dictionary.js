@@ -34,12 +34,7 @@ export default function Dictionary() {
           onChange={handleKeywordChange}
         />
 
-        <input
-          type="submit"
-          value="🔎"
-          aria-label="Default"
-          className="btn btn-light"
-        />
+        <button> 🔎 </button>
       </form>
     </div>
   );

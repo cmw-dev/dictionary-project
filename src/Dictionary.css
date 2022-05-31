@@ -10,13 +10,17 @@ h2 {
   font-size: 28px;
   margin-top: 13px;
 }
+button {
+  margin: 3px;
+  margin-top: -1px;
+  border: none;
+  font-size: 22px;
+  border-radius: 5px;
+}
 .search-bar {
   display: block;
   text-align: center;
   margin-top: 30px;
   font-size: 21px;
-}
-.btn {
-  margin: 3px;
-  margin-top: -1px;
+  border-color: transparent;
 }
