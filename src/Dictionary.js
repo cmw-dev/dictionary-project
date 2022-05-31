@@ -6,7 +6,7 @@ export default function Dictionary() {
   let [keyWord, setKeyword] = useState("");
 
   function handleResponse(response) {
-    console.log(response.data);
+    console.log(response.data[0]);
   }
 
   function search(event) {
@@ -33,7 +33,6 @@ export default function Dictionary() {
           autoComplete="off"
           onChange={handleKeywordChange}
         />
-
         <button>🔎</button>
       </form>
     </div>
