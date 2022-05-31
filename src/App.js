@@ -1,9 +1,14 @@
 import "./App.css";
+import Dictionary from "./Dictionary";
+import Contact from "./Contact";
 
 function App() {
   return (
     <div className="App">
-      <h1>Test</h1>
+      <div className="d flex container">
+        <Dictionary />
+        <Contact />
+      </div>
     </div>
   );
 }

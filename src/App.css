@@ -5,3 +5,11 @@ h1 {
 p {
   font-family: "Poppins", sans-serif;
 }
+
+.container {
+  border-radius: 20px;
+  background-color: rgba(15, 119, 55, 0.267);
+  margin: 50px auto;
+  width: 100%;
+  padding: 30px;
+}

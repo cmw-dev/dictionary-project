@@ -1,0 +1,17 @@
+h1 {
+  text-align: center;
+  font-size: 65px;
+  color: #fff;
+}
+
+h2 {
+  text-align: center;
+  color: #fff;
+  font-size: 25px;
+  margin-top: 25px;
+}
+.search-bar {
+  display: block;
+  text-align: center;
+  margin-top: 30px;
+}

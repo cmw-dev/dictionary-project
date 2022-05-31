@@ -1,0 +1,12 @@
+.contact {
+  margin: 0 auto;
+  display: block;
+  margin-bottom: -15px;
+  text-align: center;
+  margin-top: -20px;
+  font-size: 12px;
+  color: rgba(2, 54, 5, 0.822);
+}
+.contact-link {
+  color: rgba(2, 54, 5, 0.822);
+}
