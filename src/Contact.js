@@ -1,7 +1,7 @@
 import React from "react";
 import "./Contact.css";
 
-export default function () {
+export default function Contact() {
   return (
     <span className="contact">
       <a
