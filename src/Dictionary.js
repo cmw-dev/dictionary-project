@@ -8,7 +8,6 @@ export default function Dictionary() {
   let [results, setResults] = useState(null);
 
   function handleResponse(response) {
-    console.log(response.data[0]);
     setResults(response.data[0]);
   }
 
@@ -23,20 +22,24 @@ export default function Dictionary() {
   }
   return (
     <div className="container">
-      <h1>Dictionary</h1>
-      <h2>What would you like to look up?</h2>
-      <form className="search-bar" onSubmit={search}>
-        <input
-          type="text"
-          className="col-md-6 mb-4"
-          placeholder="type a word"
-          autoFocus="off"
-          autoComplete="off"
-          onChange={handleKeywordChange}
-        />
-        <button>🔎</button>
-      </form>
-      <Results results={results} />
+      <div className="Dictionary">
+        <h1>Dictionary</h1>
+        <h2>What would you like to look up?</h2>
+        <form className="search-bar" onSubmit={search}>
+          <input
+            type="text"
+            className="col-md-6 mb-4"
+            placeholder="type a word"
+            autoFocus="off"
+            autoComplete="off"
+            onChange={handleKeywordChange}
+          />
+          <button>
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </form>
+        <Results results={results} />
+      </div>
     </div>
   );
 }

@@ -2,10 +2,18 @@
   margin: 0 auto;
   display: block;
   text-align: center;
-  margin-top: -20px;
+  margin-top: -40px;
   font-size: 12px;
-  color: rgba(2, 54, 5, 0.822);
+  color: #2e323c;
 }
+
 .contact-link {
-  color: rgba(2, 54, 5, 0.822);
+  color: #2e323c;
+}
+.contact a {
+  color: #2e323c;
+  text-decoration: none;
+}
+.contact :hover {
+  text-decoration: overline;
 }

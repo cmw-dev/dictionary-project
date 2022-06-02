@@ -1,13 +1,20 @@
 .Meaning h3 {
-  font-size: 22px;
+  font-size: 28px;
+  margin-left: 5px;
+  margin-top: 10px;
 }
 
-.Meaning p {
-  font-size: 18px;
-  color: #fff;
+.Meaning .definition {
+  margin-left: 5px;
+  padding: 8px;
+  color: white;
 }
 
-.Meaning {
-  color: #fff;
-  margin-top: 15px;
+.Meaning .example {
+  color: #91b3bc;
+  padding: 2px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  margin-left: 30px;
+  font-weight: 300;
 }
