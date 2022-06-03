@@ -1,0 +1,6 @@
+.Synonyms {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  font-style: italic;
+}
