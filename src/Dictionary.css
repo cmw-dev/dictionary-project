@@ -19,12 +19,6 @@
   background-color: rgba(255, 255, 255, 0.796);
 }
 
-.Dictionary .hint {
-  color: white;
-  font-weight: 300;
-  text-align: center;
-  margin-bottom: 25px;
-}
 .Dictionary section {
   padding: 15px 30px;
   background-color: rgb(78, 65, 94);
@@ -45,5 +39,6 @@
   border-radius: 3px;
 }
 .Dictionary .fa-solid {
-  color: slategrey;
+  color: #4e415e;
+  opacity: 0.8;
 }

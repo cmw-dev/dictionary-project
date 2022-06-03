@@ -30,7 +30,7 @@ export default function Dictionary(props) {
     let pexelsApiKey =
       "563492ad6f9170000100000169cbd1eb88a2474fb770a080983e042d";
 
-    let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${keyWord}&per_page=1`;
+    let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${keyWord}&per_page=6`;
     axios
       .get(pexelsApiUrl, {
         headers: { Authorization: `Bearer ${pexelsApiKey}` },
@@ -66,9 +66,7 @@ export default function Dictionary(props) {
               <i class="fa-solid fa-magnifying-glass"></i>
             </button>
           </form>
-          <div className="hint">
-            suggested words: sunset, wine, yoga, plant...
-          </div>
+
           <Results results={results} />
           <Photos photos={photos} />
         </div>
