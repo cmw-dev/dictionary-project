@@ -1,6 +1,13 @@
-.Synonyms {
+.Synonyms li {
   list-style: none;
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
+  padding: 0;
+  margin-top: 5px;
+  margin-bottom: -5px;
   font-style: italic;
+}
+
+.Synonyms {
+  margin-bottom: -10px;
 }
