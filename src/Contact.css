@@ -4,14 +4,14 @@
   text-align: center;
   margin-top: -50px;
   font-size: 12px;
-  color: #2e323c;
+  color: rgb(197, 198, 199);
 }
 
 .contact-link {
-  color: #2e323c;
+  color: rgb(197, 198, 199);
 }
 .contact a {
-  color: #2e323c;
+  color: rgb(197, 198, 199);
   text-decoration: none;
 }
 .contact :hover {

@@ -51,8 +51,9 @@ export default function Dictionary(props) {
     return (
       <div className="container">
         <div className="Dictionary">
-          <h1>Dictionary</h1>
-          <h2>What would you like to look up?</h2>
+          <img src="./icons/explore.gif"></img>
+          <h1>Cosmic Dictionary</h1>
+          <h2>explore your universe</h2>
           <form className="search-bar" onSubmit={handleSubmit}>
             <input
               type="text"
@@ -65,8 +66,7 @@ export default function Dictionary(props) {
             <button>
               <i class="fa-solid fa-magnifying-glass"></i>
             </button>
-          </form>
-
+          </form>{" "}
           <Results results={results} />
           <Photos photos={photos} />
         </div>

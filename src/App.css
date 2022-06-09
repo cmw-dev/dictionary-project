@@ -1,13 +1,13 @@
 .App .container {
   border-radius: 20px;
-  background-color: #5b7d87;
+  background-color: transparent;
   margin: 40px auto;
   width: 100%;
   padding: 25px 8px;
 }
 
 .App {
-  background-color: rgb(43, 66, 81);
+  background-color: #05101a;
   background-size: cover;
   width: 100%;
   position: absolute;
