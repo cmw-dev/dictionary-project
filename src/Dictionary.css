@@ -17,7 +17,7 @@
   margin-top: 5px;
 }
 .Dictionary button {
-  margin: 3px 4px;
+  margin: 3px 3px;
   border: none;
   font-size: 21px;
   border-radius: 3px;
@@ -58,5 +58,5 @@
   color: rgb(31, 40, 51);
   opacity: 0.8;
   font-size: 25px;
-  padding: 6px 2px;
+  padding: 6px 6px;
 }
