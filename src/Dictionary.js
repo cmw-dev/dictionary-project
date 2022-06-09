@@ -52,7 +52,7 @@ export default function Dictionary(props) {
       <div className="container">
         <div className="Dictionary">
           <div className="head">
-            <img src="./icons/explore.gif"></img>
+            <img src="./icons/explore.gif" alt=""></img>
             <h1>Cosmic Dictionary</h1>
             <h2>explore your universe</h2>
             <form className="search-bar" onSubmit={handleSubmit}>
