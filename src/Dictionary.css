@@ -31,13 +31,13 @@
 
 .Dictionary section {
   padding: 15px 30px;
-  background-color: rgba(53, 0, 211, 0.431);
+  background-color: rgba(49, 23, 143, 0.479);
   border-radius: 15px;
   margin: 15px 5px;
 }
 
 .Dictionary section:hover {
-  box-shadow: 0 9px 22px rgb(247, 189, 135);
+  box-shadow: 0 6px 22px rgb(247, 189, 135);
 }
 .Dictionary .search-bar {
   display: block;
@@ -50,9 +50,12 @@
   background-color: rgb(197, 197, 198);
   border: none;
   border-radius: 3px;
+  font-size: 25px;
 }
 
 .Dictionary .fa-solid {
   color: rgb(31, 40, 51);
   opacity: 0.8;
+  font-size: 25px;
+  padding: 6px;
 }
