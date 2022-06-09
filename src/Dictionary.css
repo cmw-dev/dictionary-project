@@ -1,17 +1,17 @@
 .Dictionary {
-  margin-top: -75px;
+  margin-top: -120px;
 }
 
 .Dictionary h1 {
   text-align: center;
-  font-size: 70px;
-  color: #fff;
+  font-size: 65px;
+  color: rgb(226, 226, 228);
   margin-top: -15px;
 }
 
 .Dictionary h2 {
   text-align: center;
-  color: #fff;
+  color: rgb(197, 197, 198);
   font-size: 28px;
   margin-top: 5px;
 }
@@ -26,18 +26,18 @@
 .Dictionary img {
   display: block;
   margin: 0 auto;
-  width: 225px;
+  width: 340px;
 }
 
 .Dictionary section {
   padding: 15px 30px;
-  background-color: rgba(53, 0, 211, 0.637);
+  background-color: rgba(53, 0, 211, 0.431);
   border-radius: 15px;
   margin: 15px 5px;
 }
 
 .Dictionary section:hover {
-  box-shadow: 0 8px 22px rgb(233, 172, 116);
+  box-shadow: 0 9px 22px rgb(247, 189, 135);
 }
 .Dictionary .search-bar {
   display: block;
