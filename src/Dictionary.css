@@ -4,9 +4,10 @@
 
 .Dictionary h1 {
   text-align: center;
-  font-size: 65px;
+  font-size: 70px;
   color: rgb(226, 226, 228);
   margin-top: -15px;
+  font-family: "Architects Daughter", cursive;
 }
 
 .Dictionary h2 {
@@ -30,14 +31,14 @@
 }
 
 .Dictionary section {
-  padding: 15px 30px;
+  padding: 10px 20px;
   background-color: rgba(49, 23, 143, 0.479);
   border-radius: 15px;
   margin: 15px 5px;
 }
 
 .Dictionary section:hover {
-  box-shadow: 0 6px 22px rgb(247, 189, 135);
+  box-shadow: 0 6px 22px #27e97e;
 }
 .Dictionary .search-bar {
   display: block;
@@ -46,7 +47,7 @@
   font-size: 21px;
   border-color: transparent;
 }
-.Dictionary .col-md-6 {
+.Dictionary .col-sm-6 {
   background-color: rgb(197, 197, 198);
   border: none;
   border-radius: 3px;
@@ -57,5 +58,5 @@
   color: rgb(31, 40, 51);
   opacity: 0.8;
   font-size: 25px;
-  padding: 6px;
+  padding: 6px 2px;
 }
