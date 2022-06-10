@@ -51,24 +51,23 @@ export default function Dictionary(props) {
     return (
       <div className="container">
         <div className="Dictionary">
-          <div className="head">
-            <img src="./icons/explore.gif" alt=""></img>
-            <h1>Cosmic Dictionary</h1>
-            <h2>explore your universe</h2>
-            <form className="search-bar" onSubmit={handleSubmit}>
-              <input
-                type="text"
-                className="col-sm-6 mb-4"
-                placeholder=" search any word"
-                autoFocus="off"
-                autoComplete="off"
-                onChange={handleKeywordChange}
-              />
-              <button>
-                <i class="fa-solid fa-magnifying-glass"></i>
-              </button>
-            </form>
-          </div>{" "}
+          <img src="./icons/explore.gif" alt=""></img>
+          <h1>Cosmic Dictionary</h1>
+          <h2>explore your universe</h2>
+          <form className="search-bar" onSubmit={handleSubmit}>
+            <input
+              type="text"
+              className="col-sm-6 mb-4"
+              placeholder=" search any word"
+              autoFocus="off"
+              autoComplete="off"
+              onChange={handleKeywordChange}
+            />
+            <button>
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
+
           <Results results={results} />
           <Photos photos={photos} />
         </div>

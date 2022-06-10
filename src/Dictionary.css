@@ -13,7 +13,7 @@
 .Dictionary h2 {
   text-align: center;
   color: rgb(197, 197, 198);
-  font-size: 28px;
+  font-size: 35px;
   margin-top: 5px;
 }
 .Dictionary button {
@@ -44,19 +44,18 @@
   display: block;
   text-align: center;
   margin-top: 30px;
-  font-size: 21px;
   border-color: transparent;
 }
 .Dictionary .col-sm-6 {
   background-color: rgb(197, 197, 198);
   border: none;
   border-radius: 3px;
-  font-size: 25px;
+  font-size: 23px;
 }
 
 .Dictionary .fa-solid {
   color: rgb(31, 40, 51);
   opacity: 0.8;
   font-size: 25px;
-  padding: 6px 6px;
+  padding: 4px 4px 4px;
 }
