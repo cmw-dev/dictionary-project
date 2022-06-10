@@ -19,7 +19,6 @@
 .Dictionary button {
   margin: 3px 3px;
   border: none;
-
   background-color: transparent;
 }
 
@@ -55,6 +54,6 @@
 .Dictionary .fa-solid {
   color: rgb(197, 197, 198);
   opacity: 0.8;
-  font-size: 28px;
+  font-size: 30px;
   padding: 2px;
 }
