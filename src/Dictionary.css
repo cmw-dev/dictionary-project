@@ -50,14 +50,11 @@
   padding: 0;
 }
 
-.Dictionary button:hover {
-  box-shadow: 0 0px 8px var(--accent-color);
-}
 .Dictionary .fa-solid {
-  color: var(--primary-color);
+  color: var(--text-color);
   opacity: 0.9;
   font-size: 30px;
-  padding: 8px 8px;
+  padding: 9px 12px;
   border-radius: 3px;
   background-color: var(--secondary-color);
 }
