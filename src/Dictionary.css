@@ -48,13 +48,14 @@
   border: none;
   background-color: transparent;
   padding: 0;
+  margin-top: 0;
 }
 
 .Dictionary .fa-solid {
   color: var(--text-color);
   opacity: 0.9;
   font-size: 30px;
-  padding: 8px 12px;
-  border-radius: 3px;
+  padding: 7px 12px;
+  border-radius: 2px;
   background-color: var(--secondary-color);
 }
