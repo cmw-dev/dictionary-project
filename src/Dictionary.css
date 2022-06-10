@@ -21,7 +21,7 @@
   border: none;
   font-size: 21px;
   border-radius: 3px;
-  background-color: rgb(197, 198, 199);
+  background-color: transparent;
 }
 
 .Dictionary img {
@@ -54,7 +54,7 @@
 }
 
 .Dictionary .fa-solid {
-  color: rgb(31, 40, 51);
+  color: white;
   opacity: 0.8;
   font-size: 25px;
   padding: 4px 4px 4px;
