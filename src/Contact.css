@@ -3,15 +3,15 @@
   display: block;
   text-align: center;
   margin-top: -50px;
-  font-size: 12px;
-  color: rgb(197, 198, 199);
+  font-size: 15px;
+  color: var(--primary-color);
 }
 
 .contact-link {
-  color: rgb(197, 198, 199);
+  color: var(--primary-color);
 }
 .contact a {
-  color: rgb(197, 198, 199);
+  color: var(--primary-color);
   text-decoration: none;
 }
 .contact :hover {

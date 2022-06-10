@@ -1,3 +1,12 @@
+:root {
+  --primary-color: rgb(197, 197, 198);
+  --secondary-color: rgba(49, 23, 143, 0.479);
+  --accent-color: #27e97e;
+  --text-color: #fff;
+  --secondary-text-color: rgb(102, 252, 241);
+  --main-back-color: #05101a;
+}
+
 h1 {
   font-family: "Architects Daughter", cursive;
 }

@@ -5,20 +5,15 @@
 .Dictionary h1 {
   text-align: center;
   font-size: 70px;
-  color: rgb(226, 226, 228);
+  color: var(--primary-color);
   margin-top: -15px;
 }
 
 .Dictionary h2 {
   text-align: center;
-  color: rgb(197, 197, 198);
+  color: var(--primary-color);
   font-size: 31px;
   margin-top: 5px;
-}
-.Dictionary button {
-  margin: 3px 3px;
-  border: none;
-  background-color: transparent;
 }
 
 .Dictionary img {
@@ -29,13 +24,13 @@
 
 .Dictionary section {
   padding: 10px 20px;
-  background-color: rgba(49, 23, 143, 0.479);
+  background-color: var(--secondary-color);
   border-radius: 15px;
   margin: 15px 5px;
 }
 
 .Dictionary section:hover {
-  box-shadow: 0 6px 22px #27e97e;
+  box-shadow: 0 6px 22px var(--accent-color);
 }
 .Dictionary .search-bar {
   display: block;
@@ -44,15 +39,25 @@
   border-color: transparent;
 }
 .Dictionary .col-sm-6 {
-  background-color: rgb(197, 197, 198);
+  background-color: var(--primary-color);
   border: none;
   border-radius: 3px;
-  font-size: 23px;
+  font-size: 28px;
+}
+.Dictionary button {
+  border: none;
+  background-color: transparent;
+  padding: 0;
 }
 
+.Dictionary button:hover {
+  box-shadow: 0 0px 8px var(--accent-color);
+}
 .Dictionary .fa-solid {
-  color: rgb(197, 197, 198);
-  opacity: 0.8;
+  color: var(--primary-color);
+  opacity: 0.9;
   font-size: 30px;
-  padding: 2px;
+  padding: 8px 8px;
+  border-radius: 3px;
+  background-color: var(--secondary-color);
 }

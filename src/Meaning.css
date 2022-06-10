@@ -11,7 +11,7 @@
 }
 
 .Meaning .example {
-  color: rgb(102, 252, 241);
+  color: var(--secondary-text-color);
   padding: 2px;
   margin-bottom: 5px;
   margin-top: 5px;

@@ -7,7 +7,7 @@
 }
 
 .App {
-  background-color: #05101a;
+  background-color: var(--main-back-color);
   background-size: cover;
   width: 100%;
   position: absolute;
