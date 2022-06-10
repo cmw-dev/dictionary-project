@@ -55,7 +55,7 @@
   color: var(--text-color);
   opacity: 0.9;
   font-size: 30px;
-  padding: 7px 12px;
+  padding: 7px 12px 8px;
   border-radius: 2px;
   background-color: var(--secondary-color);
 }
