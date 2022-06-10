@@ -35,14 +35,14 @@
 .Dictionary .search-bar {
   display: block;
   text-align: center;
-  margin-top: 30px;
+  margin-top: 28px;
   border-color: transparent;
 }
 .Dictionary .col-sm-6 {
   background-color: var(--primary-color);
   border: none;
   border-radius: 3px;
-  font-size: 28px;
+  font-size: 26px;
 }
 .Dictionary button {
   border: none;
